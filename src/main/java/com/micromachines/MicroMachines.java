@@ -24,6 +24,7 @@ public class MicroMachines {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         // some example code
+        //比如在这里做一些更改 from canon
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 }
